@@ -1,14 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>项目介绍</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Resume - LUNIKA</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
-    <a href="https://lunika2020.github.io/music/">音乐</a>
-    <a href="https://lunika2020.github.io/novel/">小说</a>
-    <a href="https://lunika2020.github.io/music2/">音乐2</a>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">LUNIKA</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/profile.jpg" alt="" /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">简介</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">项目经验</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">教育背景</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">技能特长</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">自我评价</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">荣誉证书</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Lunika
+                </h1>
+                <div class="subheading mb-5">
+                    所在地:广东广州
+                    <br>
+                    邮箱:541183248@qq.com
+                    <br>
+                    电话:(+86) 15918509109
+                </div>
+                <p class="lead mb-5">人生就是一块磨刀石，只有经过更多的考验，灵魂才会愈加锋利</p>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Experience-->
+        <section class="resume-section" id="experience">
+            <div class="resume-section-content">
+                <h2 class="mb-5">项目经验</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="https://lunika2020.github.io/music/">仿网易云音乐播放器</a> </h3>
+                        <div class="subheading mb-3">音乐播放器</div>
+                        <p> <span style="font-weight: 600;">项目所用技术</span>：css、JavaScript、html、vue、axios、less</p>
+                        <p> <span style="font-weight: 600;">项目描述</span>
+                            ：该项目是仿照网易云官网移动端的编写的，由推荐页面、热榜页面、搜索页面和播放器组成。用户可在也推荐页面看到时下推荐歌单与推荐歌曲，在热榜页面可以看到时下热门歌曲榜单，在搜索页面可以输入关键词进行搜索并返回搜索结果。点击歌曲可以将歌曲传到播放器进行播放。播放器可以上下切换歌曲，并显示实时的歌词。
+                        </p>
+                        <p><span style="font-weight: 600;">技术描述</span>：
+                        <p>1.项目使用了vue框架。</p>
+                        <p>2.设置了加载页面，当数据还没请求完毕前，会显示loading页面，防止了排版崩塌。</p>
+                        <p>3.搜索栏使用了防抖，防止关键词还未输入完毕便多次请求造成接口负载过大。</p>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2019.12 - 2020.04</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"> <a href="https://lunika2020.github.io/novel/">小说书城</a> </h3>
+                        <div class="subheading mb-3">小说阅读器</div>
+                        <p> <span style="font-weight: 600;">项目所用技术</span>：css、JavaScript、html、vue、axios、less</p>
+                        <p> <span style="font-weight: 600;">项目描述</span>
+                            ：该项目是自行编写的移动端可读小说页面，页面主要分为推荐页面，分类页面，搜索页面，推荐页面又分热榜书籍，女生、男生、出版四个部分。用户可以在推荐页面找到时下最热门的书籍；在分类页面根据用户个人的爱好选择分类进入相应的书单；在搜索页面输入关键词找到最适应和书。还可以点击书本进入书籍详情，可以看到书籍的最新章，评论等信息。点击开始阅读可以就可以阅读书籍。
+                        </p>
+                        <p><span style="font-weight: 600;">技术描述</span>：
+                        <p>1.项目使用了vue框架与vant UI框架。</p>
+                        <p>2.使用了骨架屏，在数据还没请求完毕前，显示骨架屏。内容请求完毕后，骨架屏消失，显示内容。</p>
+                        <p>3.使用了本地存储，当用户二次进入页面时可以由本地存储提取数据，不必再次向接口请求。</p>
+                        <p>4、搜索页面使用了防抖，防止关键词还未输入完毕便多次请求造成接口负载过大。</p>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2020.04 - 2020.12</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">移动端美团页面</h3>
+                        <div class="subheading mb-3">移动端</div>
+                        <p>1、仿照移动端美团页面进行编写，要求样式与官网完全一致。</p>
+                        <p>2、可以进行页面拉伸，不出现滚动条。</p>
+                        <p>3、可以点击其中的按键，跳转到其他页面。</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2018.02 - 2018-05</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">现代浏览器博物馆（页面）</h3>
+                        <div class="subheading mb-3">bootstrap</div>
+                        <p>1、使用bootstrap官方的组件编写现代浏览器博物馆（页面）。</p>
+                        <p>2、页面由栅格布局，选项卡等等组件组成，可以根据设备宽高进行自适应布局。</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2017.11 - 2018-01</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">教育背景</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">华南理工大学广州学院</h3>
+                        <div class="subheading mb-3">电子信息工程学院</div>
+                        <div>自动化</div>
+                        <p>学士</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2016.9 - 2020.6</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">技能特长</h2>
+                <div class="subheading mb-3">程序语言 and 工具</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                </ul>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        精通DIV+CSS布局的HTML代码编写，熟练手写符合W3C标准的代码，能够完整制作出网页。
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        熟悉Javascript、css3和html5，且能使用JQuery框架实现网页常用，掌握面向对象编程思想。
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        熟练应用dom元素操作和json等相关技术。
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        熟悉vue前端框架以及组件的使用，了解各个生命周期，能够使用vue进行项目的相关开发。
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        了解bootstrap和vant等UI框架，能够使用其提高页面开发效率。
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        了解less、github等技术和团队协作开发工具。
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        学习能力强、具有较好的抗压能力、能够熟练阅读使用中文API并运用;
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Interests-->
+        <section class="resume-section" id="interests">
+            <div class="resume-section-content">
+                <h2 class="mb-5">自我评价</h2>
+                <p>有良好的心理素质，能正确的认识和评价自己，虚心接受他人的建议。拥有良好表达和沟通能力，性情温和，易于他人合作，形成融洽的合作关系。积极进取、注意细节、工作态度认真、责任心强、并有很强的团队合作精神与合作能力、注重工作效率、时间观念强，有上进心，知错改错
+                </p>
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Awards-->
+        <section class="resume-section" id="awards">
+            <div class="resume-section-content">
+                <h2 class="mb-5">荣誉证书</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        全国大学英语四级证书(413分)
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        全国计算机等级考试二级证书
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        2017年上学期自动化系王者荣耀争霸赛第三名
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        2017-2018学年 优秀班干部
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        2018-2019学年 三等奖学金
+
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
