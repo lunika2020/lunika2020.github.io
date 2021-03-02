@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<style>
+    .bgc{
+        background-color: #525864;
+    }
+    .bgw{
+        background-color: #fff;
+    }
+    .wColor{
+        color: white;
+    } 
+   .navbar-light .navbar-brand{
+        color: white;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #999678;
+    } 
+    /* .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+        color: #999678;
+    } */
+    /* .navbar-nav >.nav-item  :hover{
+        background: rgb(8, 8, 8);
+        color: #ffffff;
+ } */
+
+ .navbar-light .navbar-nav .nav-link:hover{
+     color: white;
+ }
+ .navbar{
+     padding:0;
+     height: 50px;
+ }
+ .navbar-brand{
+     margin-left: 397px;
+ }
+ .carousel-item{
+     height: 500px;
+ }
+ .container h2,p{
+   text-align: center; 
+ }
+ .tab h1{
+   color: #77b8ff;
+ }
+.nav_left{
+  width: 670px;
+  float: left;
+}
+.nav_right{
+  left: right;
+}
+.myBottom::after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        height: 0px;
+        line-height: 0px;
+    }
+ .tab-content::after{
+  content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        height: 0px;
+        line-height: 0px;
+ }
+ .tab-content h1{
+   margin-top: 115px;
+ }
+ .dropdown-item a:hover{
+   background: white;
+   color: black;
+ }
+ .top{
+   z-index: 999;
+ }
+ .show{
+   background-color: #eeeeee;
+ }
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bgc">
+        <a class="navbar-brand" href="#">现代浏览器博物馆</a>
+        <button class="navbar-toggler bgw" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse top" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item">
+                <a class="nav-link" href="#">综述</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">简述</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                特点
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: white;">
+                <a class="dropdown-item" href="void:0">谷歌</a>
+                <a class="dropdown-item" href="void:0">火狐</a>
+                <a class="dropdown-item" href="void:0">萨菲里</a>
+                <a class="dropdown-item" href="void:0">O泡</a>
+                <a class="dropdown-item" href="void:0">IE</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " data-toggle="modal" data-target="#exampleModal" href="void:0">关于</a>
+              </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+      <div class="bd-example" style="margin-bottom: 60px;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/chrome-big.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Chrome</h5>
+                <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。</p>
+                <button class="btn btn-primary">点我下载</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/firefox-big.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Firefox</h5>
+                <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器。</p>
+                <button class="btn btn-primary">点我下载</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/safari-big.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Safari</h5>
+                <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+                <button class="btn btn-primary">点我下载</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/opera-big.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Opera</h5>
+                  <p>
+                    Opera浏览器，是一款挪威Opera Software ASA公司制作的支持多页面标签式浏览的网络浏览器。</p>
+                    <button class="btn btn-primary">点我下载</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/ie-big.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>IE</h5>
+                  <p>Internet Explorer，简称 IE，是微软公司推出的一款网页浏览器。</p>
+                  <button class="btn btn-primary">点我下载</button>
+                </div>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" style="margin-bottom: 60px;">
+          <div class="col-sm">
+            <img src="images/chrome-logo-small.jpg"  alt="" style="margin-left: 105px;">
+            <h2>Chrome</h2>
+            <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。</p>
+            <button class="btn btn-primary" style="margin-left: 135px;">点我下载</button>
+          </div>
+          <div class="col-sm">
+            <img src="images/firefox-logo-small.jpg" style="margin-left: 105px;" alt="">
+            <h2>Firefox</h2>
+            <p>
+              Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器。</p>
+              <button class="btn btn-primary" style="margin-left: 135px;">点我下载</button>
+          </div>
+          <div class="col-sm">
+            <img src="images/safari-logo-small.jpg" style="margin-left: 105px;" alt="">
+            <h2>Safari</h2>
+            <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+            <button class="btn btn-primary" style="margin-left: 135px;">点我下载</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab1" role="tablist" style="width: 1200px;margin: auto;">
+          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Chrome</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Firefox</a>
+          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Safari</a>
+          <a class="nav-item nav-link" id="nav-contact1-tab" data-toggle="tab" href="#nav-contact1" role="tab" aria-controls="nav-contact1" aria-selected="false">Opera</a>
+          <a class="nav-item nav-link" id="nav-contact2-tab" data-toggle="tab" href="#nav-contact2" role="tab" aria-controls="nav-contact2" aria-selected="false">IE</a>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent" style="width: 1200px;margin: auto;"> 
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div class="nav_left">
+            <h1 style="color: #77b8ff;" >Chrome 使用最广的浏览器</h1>
+            <p style="text-align: left;">Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。 该浏览器是基于其他开源软件所撰写，包括WebKit，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面。</p>
+            </div>
+            <div class="nav_right">
+              <img src="images/chrome-logo.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div class="nav_left">
+           <img src="images/firefox-logo.jpg" alt="">
+           </div>
+           <div class="nav_right" >
+            <h1 style="color: #77b8ff;" >Mozilla Firefox 美丽的狐狸</h1>
+            <p style="text-align: left;">Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器， 使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</p>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <div class="nav_left">
+            <h1 style="color: #77b8ff;">Safari Mac用户首选</h1>
+            <p style="text-align: left;">Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器，使用了KDE的KHTML作为浏览器的运算核心。 Safari在2003年1月7日首度发行测试版，并成为Mac OS X v10.3与之后的默认浏览器，也是iPhone与IPAD和iPod touch的指定浏览器。</p>
+          </div>
+          <div class="nav_right">
+            <img src="images/safari-logo.jpg" alt="">
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact1-tab">
+          <div class="nav_left">
+          <img src="images/opera-logo.jpg" alt="">
+            </div>
+            <div class="nav_right">
+              <h1 style="color: #77b8ff;">Opera 小众但易用</h1>
+              <p style="text-align: left;">Opera浏览器，是一款挪威Opera Software ASA公司制作的支持多页面标签式浏览的网络浏览器。 是跨平台浏览器可以在Windows、Mac和Linux三个操作系统平台上运行。</p>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact2-tab">
+          <div class="nav_left">
+            <h1 style="color: #77b8ff;">IE
+              你懂的</h1>
+            <p style="text-align: left;">Internet Explorer，原称Microsoft Internet Explorer(6版本以前)和Windows Internet Explorer(7，8，9，10版本)， 简称IE，是美国微软公司推出的一款网页浏览器。它采用的排版引擎(俗称内核)为Trident。</p>
+            </div>
+            <div class="nav_right">
+              <img src="images/ie-logo.jpg" alt="">
+            </div>
+        </div>
+      </div>
+      <hr style="width: 80%;">
+      <div class="container my-5 myBottom" >
+        <span class="float-left">©2020 H5</span>
+        <a href="#" class="text-primary float-right">回到顶部</a>
+    </div>
+
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Launch demo modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">狗屁不通文章生成器
+              <br>
+              网址： https://www.xiaodigu.cn/gpwz/
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            　　　徐大大的发生，到底需要如何做到，不徐大大的发生，又会如何产生。 既然如何， 现在，解决徐大大的问题，是非常非常重要的。 所以， 问题的关键究竟为何？ 生活中，若徐大大出现了，我们就不得不考虑它出现了的事实。 既然如此， 现在，解决徐大大的问题，是非常非常重要的。 所以， 问题的关键究竟为何？ 在这种困难的抉择下，本人思来想去，寝食难安。 一般来讲，我们都必须务必慎重的考虑考虑。 生活中，若徐大大出现了，我们就不得不考虑它出现了的事实。
+           
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+  // 轮播图的滚动时间设置
+  $('#carouselExampleCaptions').carousel({
+        interval: 2000
+    })
+    // 导航栏下拉框切换显示相应的浏览器
+    $(".dropdown-item").click(function () {
+        $("body,html").scrollTop($("#nav-tab1").offset().top);
+        // 取消导航栏下拉框的选中内容
+        $(this).css({ "background": "rgb(255,255,255)", "color": "#000" });
+        // 显示相应的选项卡内容
+        $(".tab-content .tab-pane").eq($(this).index()).addClass(" active show").siblings().removeClass(" active show");
+        // 选中相应的选项卡
+        $(".nav-tabs").find(".nav-link").removeClass("active").eq($(this).index()).addClass("active");
+    })
+    // 下拉框样式
+    // $("#navbarDropdown").focus(function () {
+    //     $(this).css({ "background": "rgb(52,58,64)" })
+    // })
+    // $("#navbarDropdown").blur(function () {
+    //     $(this).css("color", "#939c8d")
+    // })
+</script>
+
+</html>
